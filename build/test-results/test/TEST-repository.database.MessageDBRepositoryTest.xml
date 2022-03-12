@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="repository.database.MessageDBRepositoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-12-07T19:55:13" hostname="LAPTOP-DHK8NDQJ" time="0.005">
+  <properties/>
+  <testcase name="findAll()" classname="repository.database.MessageDBRepositoryTest" time="0.001"/>
+  <testcase name="findOne()" classname="repository.database.MessageDBRepositoryTest" time="0.0"/>
+  <testcase name="save()" classname="repository.database.MessageDBRepositoryTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

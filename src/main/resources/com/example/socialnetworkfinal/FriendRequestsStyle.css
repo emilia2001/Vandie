@@ -1,0 +1,101 @@
+.table-view {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to right, rgba(47,64,200,0.83), rgba(126,21,200,0.83));
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-padding: 0 0 5px 0;
+    -fx-pref-width: 360;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: #4c5869;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+#logoutButton
+{
+    -fx-background-image: url('images/logout.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+#profileButton
+{
+    -fx-background-image: url('images/profileIcon.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+#friendsButton
+{
+    -fx-background-image: url('images/friendsIcon.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+#chatButton
+{
+    -fx-background-image: url('images/chatIcon.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+#eventsButton
+{
+    -fx-background-image: url('images/eventIcon.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+#acceptButton
+{
+    -fx-background-image: url('images/acceptIcon.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+#declineButton
+{
+    -fx-background-image: url('images/rejectIcon.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+#cancelButton
+{
+    -fx-background-image: url('images/cancelIcon.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}

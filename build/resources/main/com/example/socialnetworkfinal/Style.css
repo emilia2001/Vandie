@@ -1,0 +1,35 @@
+.chat-bubble-right {
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-background-radius: 12;
+    -fx-background-color:linear-gradient(from 25% 25% to 100% 100%, #566bbf, #9a1ced);
+    -fx-padding: 8 8 8 8;
+}
+
+.chat-bubble-left {
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-background-radius: 14;
+    -fx-background-color:rgb(64,64,64);
+    -fx-padding: 9 9 9 9;
+}
+
+.chat-bubble-reply {
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-background-radius: 14;
+    -fx-background-color:rgb(44,44,44);
+    -fx-text-fill: rgb(240, 240, 240);
+    -fx-padding: 5 5 5 5;
+}
+
+.chat-hbox {
+
+    -fx-background-color:rgb(24,24,24);
+}
+
+.list-cell{
+    -fx-background-color:rgb(24,24,24);
+}
+
+.list-cell:selected {
+    -fx-border-color: white;
+    -fx-border-radius: 15px;
+}

@@ -1,0 +1,50 @@
+
+#logoutButton
+{
+    -fx-background-image: url('images/logout.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+#profileButton
+{
+    -fx-background-image: url('images/profileIcon.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+#friendsButton
+{
+    -fx-background-image: url('images/friendsIcon.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+#chatButton
+{
+    -fx-background-image: url('images/chatIcon.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+#eventsButton
+{
+    -fx-background-image: url('images/eventIcon.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+.date-picker .text-field {
+    -fx-control-inner-background:  #303645 ;
+    -fx-prompt-text-fill: white;
+
+}
+.date-picker {
+    -fx-background-radius: 10 10 10 10;
+}
+.date-picker > .text-field {
+    -fx-background-radius: 10 0 0 10;
+}
+
+.date-picker > .arrow-button {
+    -fx-background-radius: 0 10 10 0;
+}

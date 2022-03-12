@@ -1,0 +1,97 @@
+#logoutButton
+{
+    -fx-background-image: url('images/logout.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+#profileButton
+{
+    -fx-background-image: url('images/profileIcon.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+#friendsButton
+{
+    -fx-background-image: url('images/friendsIcon.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+#chatButton
+{
+    -fx-background-image: url('images/chatIcon.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+#eventsButton
+{
+    -fx-background-image: url('images/eventIcon.png');
+    -fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to right, #566bbf, #9a1ced);
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-padding: 0 0 5px 0;
+    -fx-pref-width: 360;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: #4c5869;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #475161;
+}
+.date-picker .text-field {
+    -fx-control-inner-background:  #303645 ;
+    -fx-prompt-text-fill: white;
+
+}
+.date-picker {
+    -fx-background-radius: 10 10 10 10;
+}
+.date-picker > .text-field {
+    -fx-background-radius: 10 0 0 10;
+}
+
+.date-picker > .arrow-button {
+    -fx-background-radius: 0 10 10 0;
+}
